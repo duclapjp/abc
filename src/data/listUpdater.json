@@ -1,0 +1,25 @@
+{
+  "updaters": [
+    {
+      "accountId": 1,
+      "baseUrl": "https://reactplus.com",
+      "name": "locnt"
+    },
+    {
+      "accountId": 2,
+      "baseUrl": "https://reactplus.com",
+      "name": "linhpb"
+    },
+    {
+      "accountId": 3,
+      "baseUrl": "https://reactplus.com",
+      "name": "chiennv"
+    },
+    {
+      "accountId": 4,
+      "baseUrl": "https://reactplus.com",
+      "name": "hai"
+    }
+  ],
+  "total": 4
+}

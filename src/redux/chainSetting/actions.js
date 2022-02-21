@@ -1,0 +1,18 @@
+const actions = {
+  GET_CHAIN_REQUEST: "GET_CHAIN_REQUEST",
+  GET_CHAIN_SUCCESS: "GET_CHAIN_SUCCESS",
+  GET_CHAIN_ERROR: "GET_CHAIN_ERROR",
+  UPDATE_CHAIN_REQUEST: "UPDATE_CHAIN_REQUEST",
+  UPDATE_CHAIN_SUCCESS: "UPDATE_CHAIN_SUCCESS",
+  UPDATE_CHAIN_ERROR: "UPDATE_CHAIN_ERROR",
+  RESET_CHAIN_SETTING_STORE: "RESET_CHAIN_SETTING_STORE",
+  getChain: (chainId) => ({
+    type: actions.GET_CHAIN_REQUEST,
+    chainId,
+  }),
+  updateChain: (payload) => ({
+    type: actions.UPDATE_CHAIN_REQUEST,
+    payload,
+  }),
+};
+export default actions;

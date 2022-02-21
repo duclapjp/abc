@@ -1,0 +1,51 @@
+{
+  "collections": [
+    {
+      "id": 1,
+      "status": "admin",
+      "name": "",
+      "director1": "",
+      "director2": "メモ",
+      "director3": "メモ",
+      "email": "",
+      "remarks": "test",
+      "facilities": [1]
+    },
+    {
+      "id": 2,
+      "status": "chain",
+      "name": "",
+      "director1": "",
+      "director2": "メモ",
+      "director3": "メモ",
+      "email": "",
+      "remarks": "",
+      "facilities": [1]
+    },
+    {
+      "id": 3,
+      "status": "store",
+      "name": "",
+      "director1": "",
+      "director2": "メモ",
+      "director3": "メモ",
+      "email": "",
+      "remarks": "",
+      "facilities": [2]
+    },
+    {
+      "id": 4,
+      "status": "user",
+      "name": "",
+      "director1": "",
+      "director2": "メモ",
+      "director3": "メモ",
+      "email": "",
+      "remarks": "",
+      "facilities": [3]
+    }
+  ],
+  "current": 5,
+  "pageSize": 10,
+  "total": 50
+}

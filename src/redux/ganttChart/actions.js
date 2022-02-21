@@ -1,0 +1,24 @@
+const actions = {
+  GET_GANTT_CHART_REQUEST: "GANTT_CHART/GET_GANTT_CHART_REQUEST",
+  GET_GANTT_CHART_SUCCESS: "GANTT_CHART/GET_GANTT_CHART_SUCCESS",
+  GET_GANTT_CHART_ERROR: "GANTT_CHART/GET_GANTT_CHART_ERROR",
+  RESET_GANTT_CHART_STORE: "GANTT_CHART/RESET_GANTT_CHART_STORE",
+
+  GET_ASSIGNEES_REQUEST: "GET_ASSIGNEES_REQUEST",
+  GET_ASSIGNEES_SUCCESS: "GET_ASSIGNEES_SUCCESS",
+
+  getGanttChartData: (payload) => ({
+    type: actions.GET_GANTT_CHART_REQUEST,
+    payload,
+  }),
+
+  resetGanttChartStore: () => ({
+    type: actions.RESET_GANTT_CHART_STORE,
+  }),
+
+  getAssignees: () => ({
+    type: actions.GET_ASSIGNEES_REQUEST,
+  }),
+};
+
+export default actions;

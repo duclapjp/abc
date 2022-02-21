@@ -1,0 +1,95 @@
+{
+  "taskId": 10003,
+  "categoryId": 20002,
+  "title": "Task example",
+  "attachName": "attachname.png\n",
+  "attachUrl": "folder/attachname.png",
+  "note": "Noteetetet",
+  "status": "担当者確認中",
+  "priority": "低",
+  "assigneeId": 10011,
+  "startDate": "2020/05/15",
+  "dueDate": null,
+  "estTime": 200,
+  "estPoint": 50,
+  "comments": [
+      {
+          "commentId": 70000,
+          "taskId": 80000,
+          "status": "DONE",
+          "assigneeId": 10000,
+          "startDate": null,
+          "dueDate": null,
+          "commentText": "commmentdddg      rrrr",
+          "estTime": 100,
+          "estPoint": 200
+      },
+      {
+          "commentId": 10003,
+          "taskId": 80000,
+          "status": "完了",
+          "assigneeId": 10003,
+          "startDate": "2020/05/15",
+          "dueDate": null,
+          "commentText": "xxxxxxxxxxxxxxxxxxxrrrrrrrrrrrrrrr",
+          "estTime": 200,
+          "estPoint": 50
+      },
+      {
+          "commentId": 10002,
+          "taskId": 80000,
+          "status": "完了",
+          "assigneeId": 10003,
+          "startDate": "2020/05/15",
+          "dueDate": null,
+          "commentText": "Commmmmmmmmmmmmmmentttt 22222222222",
+          "estTime": 200,
+          "estPoint": 50
+      },
+      {
+          "commentId": 10001,
+          "taskId": 80000,
+          "status": "完了",
+          "assigneeId": 10003,
+          "startDate": "2020/05/15",
+          "dueDate": "2020/05/19",
+          "commentText": "Commmmmmmmmmmmmmmentttt 22222222222",
+          "estTime": 200,
+          "estPoint": 50
+      },
+      {
+          "commentId": 10000,
+          "taskId": 80000,
+          "status": "完了",
+          "assigneeId": 10000,
+          "startDate": "2020/05/14",
+          "dueDate": "2020/05/15",
+          "commentText": "Commmmmmmmmmmmmmmentttt ",
+          "estTime": 100,
+          "estPoint": 30
+      }
+  ],
+  "attachs": [
+      {
+          "taskAttachId": 10003,
+          "taskId": 80000,
+          "attachName": "nicks-cors-test-master.zip",
+          "attachUrl": "attached-10003.zip",
+          "createdDate": "2020/05/20"
+      },
+      {
+          "taskAttachId": 10002,
+          "taskId": 80000,
+          "attachName": "96259399_596176531253185_4072767854431174656_n.jpg",
+          "attachUrl": "attached-10002.jpg",
+          "createdDate": "2020/05/19"
+      },
+      {
+          "taskAttachId": 10001,
+          "taskId": 80000,
+          "attachName": "96259399_596176531253185_4072767854431174656_n.jpg",
+          "attachUrl": "attached-10001.jpg",
+          "createdDate": "2020/05/19"
+      }
+  ]
+}

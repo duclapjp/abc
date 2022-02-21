@@ -1,0 +1,52 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "globals": {
+    "localStorage": true,
+    "sessionStorage": true,
+    "fetch": true,
+    "window": true,
+    "document": true,
+    "process": true,
+    "Event": true,
+    "alert": true,
+    "XMLHttpRequest": true,
+    "FormData": true,
+    "Image": true,
+    "Promise": true
+  },
+  "plugins": [
+    "react-hooks"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "no-console": "warn",
+    "no-eval": "error",
+    "no-empty": "warn",
+    "react/prop-types": "warn",
+    "react/display-name": "warn",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "no-case-declarations": 0,
+    "no-prototype-builtins": 0,
+    "react/no-unescaped-entities": "warn",
+    "no-useless-escape": 0,
+    "react/no-string-refs": "warn",
+    "no-irregular-whitespace": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}

@@ -1,0 +1,46 @@
+const actions = {
+  GET_ACCOUNTS_REQUEST: "ACCOUNT_LIST/GET_ACCOUNTS_REQUEST",
+  GET_ACCOUNTS_SUCCESS: "ACCOUNT_LIST/GET_ACCOUNTS_SUCCESS",
+  GET_ACCOUNTS_ERROR: "ACCOUNT_LIST/GET_ACCOUNTS_ERROR",
+  GET_ACCOUNT_REQUEST: "GET_ACCOUNT_REQUEST",
+  GET_ACCOUNT_SUCCESS: "GET_ACCOUNT_SUCCESS",
+  GET_ACCOUNT_ERROR: "GET_ACCOUNT_ERROR",
+  GET_CHAINS_REQUEST: "GET_CHAINS_REQUEST",
+  GET_CHAINS_SUCCESS: "GET_CHAINS_SUCCESS",
+  GET_CHAINS_ERROR: "GET_CHAINS_ERROR",
+  GET_STORES_REQUEST: "GET_STORES_REQUEST",
+  GET_STORES_SUCCESS: "GET_STORES_SUCCESS",
+  GET_STORES_ERROR: "GET_STORES_ERROR",
+  ADD_ACCOUNT_REQUEST: "ADD_ACCOUNT_REQUEST",
+  ADD_ACCOUNT_SUCCESS: "ADD_ACCOUNT_SUCCESS",
+  ADD_ACCOUNT_ERROR: "ADD_ACCOUNT_ERROR",
+  EDIT_ACCOUNT_REQUEST: "EDIT_ACCOUNT_REQUEST",
+  EDIT_ACCOUNT_SUCCESS: "EDIT_ACCOUNT_SUCCESS",
+  EDIT_ACCOUNT_ERROR: "EDIT_ACCOUNT_ERROR",
+  RESET_ACCOUNTS_STORE: "RESET_ACCOUNTS_STORE",
+  getAccounts: (payload) => ({
+    type: actions.GET_ACCOUNTS_REQUEST,
+    payload,
+  }),
+  getAccount: (payload) => ({
+    type: actions.GET_ACCOUNT_REQUEST,
+    payload: payload,
+  }),
+  getChainsData: () => ({
+    type: actions.GET_CHAINS_REQUEST,
+  }),
+  getStoresData: (payload) => ({
+    type: actions.GET_STORES_REQUEST,
+    payload: payload,
+  }),
+  createAccount: (payload) => ({
+    type: actions.ADD_ACCOUNT_REQUEST,
+    payload: payload,
+  }),
+  editAccount: (payload) => ({
+    type: actions.EDIT_ACCOUNT_REQUEST,
+    payload: payload,
+  }),
+};
+
+export default actions;

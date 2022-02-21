@@ -1,0 +1,56 @@
+const actions = {
+  GET_OTAS_REQUEST: "OTA/GET_OTAS_REQUEST",
+  GET_OTAS_SUCCESS: "OTA/GET_OTAS_SUCCESS",
+  GET_OTAS_ERROR: "OTA/GET_OTAS_ERROR",
+
+  GET_OTA_TYPES_REQUEST: "OTA/GET_OTA_TYPES_REQUEST",
+  GET_OTA_TYPES_SUCCESS: "OTA/GET_OTA_TYPES_SUCCESS",
+  GET_OTA_TYPES_ERROR: "OTA/GET_OTA_TYPES_ERROR",
+
+  GET_OTA_REQUEST: "OTA/GET_OTA_REQUEST",
+  GET_OTA_SUCCESS: "OTA/GET_OTA_SUCCESS",
+  GET_OTA_ERROR: "OTA/GET_OTA_ERROR",
+
+  UPDATE_OTA_STATUS_REQUEST: "OTA/UPDATE_OTA_STATUS_REQUEST",
+  UPDATE_OTA_STATUS_SUCCESS: "OTA/UPDATE_OTA_STATUS_SUCCESS",
+  UPDATE_OTA_STATUS_ERROR: "OTA/UPDATE_OTA_STATUS_ERROR",
+
+  UPDATE_OTA_REQUEST: "OTA/UPDATE_OTA_REQUEST",
+  UPDATE_OTA_SUCCESS: "OTA/UPDATE_OTA_SUCCESS",
+  UPDATE_OTA_ERROR: "OTA/UPDATE_OTA_ERROR",
+
+  CREATE_OTA_REQUEST: "OTA/CREATE_OTA_REQUEST",
+  CREATE_OTA_SUCCESS: "OTA/CREATE_OTA_SUCCESS",
+  CREATE_OTA_ERROR: "OTA/CREATE_OTA_ERROR",
+
+  getOTAs: (payload) => ({
+    type: actions.GET_OTAS_REQUEST,
+    payload,
+  }),
+
+  getOtaTypes: () => ({
+    type: actions.GET_OTA_TYPES_REQUEST,
+  }),
+
+  getOTA: (payload) => ({
+    type: actions.GET_OTA_REQUEST,
+    payload,
+  }),
+
+  updateOTAStatus: (payload) => ({
+    type: actions.UPDATE_OTA_STATUS_REQUEST,
+    payload,
+  }),
+
+  updateOTA: (payload) => ({
+    type: actions.UPDATE_OTA_REQUEST,
+    payload,
+  }),
+
+  createOTA: (payload) => ({
+    type: actions.CREATE_OTA_REQUEST,
+    payload,
+  }),
+};
+
+export default actions;

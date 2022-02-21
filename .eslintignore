@@ -1,0 +1,7 @@
+config-overrides.js
+public/
+src/serviceWorker.js
+node_modules/
+.dockerignore
+.env*
+build/

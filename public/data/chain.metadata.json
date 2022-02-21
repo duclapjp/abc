@@ -1,0 +1,110 @@
+{
+  "status": [
+    {
+      "id": 1,
+      "status": "ディレクター"
+    },
+    {
+      "id": 2,
+      "status": "施設"
+    },
+    {
+      "id": 3,
+      "status": "チェーン"
+    },
+    {
+      "id": 4,
+      "status": "作業者"
+    }
+  ],
+  "names": [
+    {
+      "id": 1,
+      "text": "name1"
+    },
+    {
+      "id": 2,
+      "text": "name2"
+    },
+    {
+      "id": 3,
+      "text": "name3"
+    },
+    {
+      "id": 4,
+      "text": "name4"
+    }
+  ],
+  "emails": [
+    {
+      "id": 1,
+      "text": "name1@hls.com"
+    },
+    {
+      "id": 2,
+      "text": "name2@hls.com"
+    },
+    {
+      "id": 3,
+      "text": "name3@hls.com"
+    },
+    {
+      "id": 4,
+      "text": "name4@hls.com"
+    }
+  ],
+  "director1": [
+    {
+      "id": 1,
+      "text": "name1@hls.com"
+    },
+    {
+      "id": 2,
+      "text": "name2@hls.com"
+    },
+    {
+      "id": 3,
+      "text": "name3@hls.com"
+    },
+    {
+      "id": 4,
+      "text": "name4@hls.com"
+    }
+  ],
+  "director2": [
+    {
+      "id": 1,
+      "text": "name1@hls.com"
+    },
+    {
+      "id": 2,
+      "text": "name2@hls.com"
+    },
+    {
+      "id": 3,
+      "text": "name3@hls.com"
+    },
+    {
+      "id": 4,
+      "text": "name4@hls.com"
+    }
+  ],
+  "director3": [
+    {
+      "id": 1,
+      "text": "name1@hls.com"
+    },
+    {
+      "id": 2,
+      "text": "name2@hls.com"
+    },
+    {
+      "id": 3,
+      "text": "name3@hls.com"
+    },
+    {
+      "id": 4,
+      "text": "name4@hls.com"
+    }
+  ]
+}
